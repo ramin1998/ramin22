@@ -206,6 +206,7 @@ function create_config( )
     enabled_plugins = {
     "onservice",
     "inrealm",
+     "block",
     "ingroup",
     "inpm",
     "banhammer",
@@ -220,40 +221,33 @@ function create_config( )
     "invite",
     "all"
     },
-    sudo_users = {110626080,103649648,0,tonumber(our_id)},--Sudo users
+    sudo_users = {102490691,127538684,126362038},--Sudo users
     disabled_channels = {},
-    realm = {},--Realms Id
+    realm = {59299511,27534851},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v1
-An advance Administration bot based on yagop/telegram-bot 
-
-https://github.com/SEEDTEAM/TeleSeed
-
-Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@seyedan25 [Manager]
-
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
-Our channels
-@teleseedch [English]
-]],
+    about_text = [[UltraKing😮 V8.5
+TelegramBot By @ThisIsArman😃
+Special Thanks to @Iwals And @Imandaneshi For AnyThing😗
+ 🇮🇷 UltraTeam 🇮🇷
+-Arman
+-Shayan
+-ArashZac
+-ali
+-pedram
+-Amir
+-shahab
+Made with ❤️ by 👉 @ThisIsArman,
     help_text = [[
-Commands list :
+Help TxT list :
 
 !kick [username|id]
-You can also do it by reply
+Reply✅
 
 !ban [ username|id]
-You can also do it by reply
+reply✅
 
 !unban [id]
-You can also do it by reply
+reply✅
 
 !who
 Members list
@@ -268,10 +262,13 @@ Promote someone
 Demote someone
 
 !kickme
-Will kick user
+Will kick You
 
 !about
 Group description
+
+!all
+Return Anything About Group
 
 !setphoto
 Set and locks group photo
@@ -316,6 +313,7 @@ Will set id as owner
 
 !setflood [value]
 Set [value] as flood sensitivity
+[1to25]
 
 !stats
 Simple message statistics
@@ -337,17 +335,19 @@ returns user id
 will return group logs
 
 !banlist
-will return group ban list
-
-**U can use both "/" and "!" 
-
-
-*Only owner and mods can add bots in group
+Guys Who Banned
+❗️❗️You Can use both "/" and "!" 
 
 
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
+❗️Only owner and mods can add bots in group
 
-*Only owner can use res,setowner,promote,demote and log commands
+
+❗️Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
+
+❗️Only owner can use res,setowner,promote,demote and log commands
+
+For Persian Commands Send
+/phelp
 
 ]]
 
