@@ -209,6 +209,7 @@ function create_config( )
      "block",
     "ingroup",
     "inpm",
+        "plugins",
     "banhammer",
     "stats",
     "anti_spam",
@@ -237,6 +238,7 @@ Special Thanks to @Iwals And @Imandaneshi For AnyThing😗
 -Amir
 -shahab
 Made with ❤️ by 👉 @ThisIsArman,
+]],
     help_text = [[
 Help TxT list :
 
