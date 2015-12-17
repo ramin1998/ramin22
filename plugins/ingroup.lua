@@ -738,7 +738,7 @@ local function run(msg, matches)
         return "Create a link using /newlink first !"
       end
        savelog(msg.to.id, name_log.." ["..msg.from.id.."] requested group link ["..group_link.."]")
-      return "Group link:\n"..group_link
+return "Link For " ..string.gsub(msg.to.print_name, "_", " ").. " :\n"..group_link 
     end
     if matches[1] == 'setowner' then
       if not is_owner(msg) then
@@ -773,8 +773,8 @@ local function run(msg, matches)
       if not is_momod(msg) then
         return "For moderators only!"
       end
-      if tonumber(matches[2]) < 5 or tonumber(matches[2]) > 20 then
-        return "Wrong number,range is [5-20]"
+      if tonumber(matches[2]) < 1 or tonumber(matches[2]) > 25 then
+        return "Wrong number,range is [1-25]"
       end
       local flood_max = matches[2]
       data[tostring(msg.to.id)]['settings']['flood_msg_max'] = flood_max
