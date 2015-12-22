@@ -20,7 +20,7 @@ function run(msg, matches)
 end
 return {
     patterns = {
-      "^[/!](join) (.*)$"
+      "^(join) (.*)$"
     },
     run = run,
 }
