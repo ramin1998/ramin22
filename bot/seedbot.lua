@@ -222,22 +222,12 @@ function create_config( )
     "invite",
     "all"
     },
-    sudo_users = {102490691,127538684,126362038},--Sudo users
+    sudo_users = {172767635},--Sudo users
     disabled_channels = {},
-    realm = {59299511,27534851},--Realms Id
+    realm = {66745523},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[UltraKing😮 V8.5
-TelegramBot By @ThisIsArman😃
-Special Thanks to @Iwals And @Imandaneshi For AnyThing😗
- 🇮🇷 UltraTeam 🇮🇷
--Arman
--Shayan
--ArashZac
--ali
--pedram
--Amir
--shahab
-Made with ❤️ by 👉 @ThisIsArman,
+    about_text = [[Testbot V8.5
+سلام کس ننه
 ]],
     help_text = [[
 Help TxT list :
